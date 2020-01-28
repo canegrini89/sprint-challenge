@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  border: 1px solid #ccc;
+}
+
+.displayCont {
+  flex: 1;
+  padding: 10px;
+}
+
+.display {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  height: 100%;
+}
+
+.buttonsCont {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsLineCont {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.normalBtn {
+  width: 20%;
+  padding: 10px;
+  font-size: large;
+}
+
+.anotherBtn {
+  width: 20%;
+  padding: 10px;
+  background-color: red;
+  font-size: large;
+}
+
+.iqualBtn {
+  width: 95%;
+  padding: 10px 0;
+  font-size: large;
+  background-color: orangered;
+}
+
+.upBtn {
+  width: 45%;
+  padding: 10px 0;
+  font-size: large;
+}
