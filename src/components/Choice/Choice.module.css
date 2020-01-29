@@ -1,0 +1,14 @@
+.labelOption {
+  margin: 5px 0;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.success {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background-color: green;
+  color: #fff;
+  font-weight: bolder;
+}

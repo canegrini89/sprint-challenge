@@ -35,8 +35,6 @@ const Calculator = () => {
     setInput('');
   };
 
-  console.log(input);
-
   return (
     <div className={styles.container}>
       <div className={styles.calculator}>

@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 550px;
+  padding: 0.2rem 2rem 1rem 2rem;
+  border-radius: 5px;
+  margin: 0.5rem auto;
+  border: 1px solid #ccc;
+  box-shadow: #ccc 10px 10px 10px;
+}
+
+.cardTitle {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.cardOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelOption > p {
+  margin: 0 1rem;
+}
