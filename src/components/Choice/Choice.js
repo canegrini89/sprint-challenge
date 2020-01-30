@@ -12,8 +12,6 @@ const Choice = ({ id, options, correctAns }) => {
     }
   };
 
-  console.log(result);
-
   return (
     <div>
       <div>

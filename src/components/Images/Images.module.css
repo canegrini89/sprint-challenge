@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  margin-top: 20px;
+  width: 80%;
+  height: 80vh;
+  border-radius: 5px;
+  box-shadow: #ccc 10px 10px 10px;
+}
+
+.loadingText {
+  text-align: center;
+}

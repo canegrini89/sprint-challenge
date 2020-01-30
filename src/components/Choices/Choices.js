@@ -14,7 +14,6 @@ const Choices = () => {
     <div className={styles.container}>
       <div className={styles.cardsContainer}>
         {choices.map(choice => {
-          console.log(choice);
           return (
             <div className={styles.card} key={choice.id}>
               <h2 className={styles.cardTitle}>{choice.question}</h2>
